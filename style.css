@@ -218,9 +218,6 @@ footer p{
     left: 85px;
 }
 
-#right{
-    
-}
 
 nav h1{
 
@@ -244,7 +241,7 @@ nav .onglets{
 }
 
 .sepa{
-    margin-left: 80px;
+    margin-left: 90px;
     margin-top: 44px;
 }
 
@@ -253,25 +250,19 @@ nav .onglets{
 
 .social svg{
     
-    padding-left: 62px;
+    padding-left: 175px;
 }
 
 footer p{
     
-    margin-left: 99px;
+    margin-left: 110px;
 }
 
 
 
 header{
-    padding-left: 35px;
+    padding-right: 9px;
 }
-
-.home-text{
-    margin-left: -43px;
-}
-
-
 
 }
 
@@ -279,14 +270,11 @@ header{
 
 
     #left{
+        
         position: relative;
-        right: 15px;
+        left: 60px;
     }
-    
-    #right{
-        position: relative;
-        left: 15px;
-    }
+
     
     nav h1{
     
@@ -304,7 +292,7 @@ header{
     }
     
     header{
-        background-size: 130%;
+        padding-left: 25px;
     }
     
     .content .card{
@@ -320,14 +308,22 @@ header{
     }
     
     footer p{
-        text-align: center;
-        margin-right: 24;
+        
+        margin-left: 110px;
+    
     }
+
     
     .icon svg {
-        margin-left: 20px;
+        margin-left: 45px;
     }
     
+    .sepa{
+        margin-left: 80px;
+        margin-top: 44px;
+    }
+
+
     
     }
     
@@ -379,17 +375,23 @@ header{
         }
         
         footer p{
-            text-align: center;
-            margin-right: 20px;
+            
+            margin-left: 88px;
         }
         
         svg {
-           position: relative;
-           left: 41px;
+           
+           margin-right: 50px;
+        }
+        
+        .sepa{
+
+            margin-left: 80px;
+        margin-top: 44px;
+    }
         }
         
         
-        }
         
 
         @media screen and (max-width:774px) {
