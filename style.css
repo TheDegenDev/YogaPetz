@@ -215,12 +215,11 @@ footer p{
 
 #left{
     position: relative;
-    right: 15px;
+    left: 85px;
 }
 
 #right{
-    position: relative;
-    left: 15px;
+    
 }
 
 nav h1{
@@ -254,7 +253,7 @@ nav .onglets{
 
 .social svg{
     
-    padding-left: 58px;
+    padding-left: 62px;
 }
 
 footer p{
