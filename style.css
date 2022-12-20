@@ -49,10 +49,12 @@ header{
     background-repeat: no-repeat;
     color: rgb(255, 255, 255);
     width: 100%;
-    background-image: url(img/2.png);
+    background-image: url(img/3.png);
     margin-top: 10px;
     
 }
+
+
 header h1{
     font-family: 'Playfair Display', serif;
     font-size: 50px;
@@ -73,7 +75,14 @@ header h4{
     font-family: 'poppins', serif;
     cursor: pointer;
     border-radius: 2em;
+    transition: 0.5s;
+
     
+}
+
+.home-text:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
 }
 
 header .home-text{
@@ -154,10 +163,15 @@ footer{
     justify-content: space-between;
     margin-left: 40px;
     margin-right: 60px;
-    border-top: 2em solid;
+    
     border-width: 3px;
     color: wheat;
     padding-top: 12px;
+}
+
+.sepa{
+    border: solid 2px;
+    color: white;
 }
 
 svg{
@@ -220,13 +234,9 @@ nav .onglets{
     margin-left: 133;
 }
 
-header .home-text{
-    margin-top: -105px;
-}
 
-header{
-    background-size: 130%;
-}
+
+
 
 .content .card{
     display: flex;
@@ -234,20 +244,208 @@ header{
 
 }
 
+.sepa{
+    margin-left: 80px;
+    margin-top: 44px;
+}
 
-footer{
-    display: flex;
-    flex-direction: column-reverse;
+
+
+
+.social svg{
+    
+    padding-left: 58px;
 }
 
 footer p{
-    text-align: center;
-}
-
-svg {
-    margin-left: 26px;
+    
+    margin-left: 99px;
 }
 
 
+
+header{
+    padding-left: 35px;
 }
 
+.home-text{
+    margin-left: -43px;
+}
+
+
+
+}
+
+@media screen and (max-width:380px) {
+
+
+    #left{
+        position: relative;
+        right: 15px;
+    }
+    
+    #right{
+        position: relative;
+        left: 15px;
+    }
+    
+    nav h1{
+    
+        margin-right: 60px;
+    }  
+    
+    
+    nav .onglets{
+    
+        margin-left: 133;
+    }
+    
+    header .home-text{
+        margin-top: -105px;
+    }
+    
+    header{
+        background-size: 130%;
+    }
+    
+    .content .card{
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+    
+    
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    footer p{
+        text-align: center;
+        margin-right: 24;
+    }
+    
+    .icon svg {
+        margin-left: 20px;
+    }
+    
+    
+    }
+    
+
+    @media screen and (max-width:560px) {
+
+
+        #left{
+            position: relative;
+            right: 15px;
+        }
+        
+        #right{
+            position: relative;
+            left: 15px;
+        }
+        
+        nav h1{
+        
+            margin-right: 60px;
+        }  
+        
+        
+        nav .onglets{
+            
+           position: relative;
+           left: 118px;
+            
+        }
+        
+        header .home-text{
+            margin-right: -2px;
+        }
+        
+        header{
+               width: 122%;
+        }
+        
+        .content .card{
+            display: flex;
+            flex-direction: column-reverse;
+        
+        }
+        
+        
+        footer{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        
+        footer p{
+            text-align: center;
+            margin-right: 20px;
+        }
+        
+        svg {
+           position: relative;
+           left: 41px;
+        }
+        
+        
+        }
+        
+
+        @media screen and (max-width:774px) {
+
+
+            #left{
+                position: relative;
+                right: 20px;
+            }
+            
+            #right{
+                position: relative;
+                left: 20px;
+            }
+            
+            nav h1{
+            
+                margin-right: 60px;
+            }  
+            
+            
+            nav .onglets{
+            
+                margin-left: 133;
+            }
+            
+            header .home-text{
+                margin-top: -55px;
+            }
+            
+            header{
+                background-size: 100%;
+            }
+            
+            .content .card{
+                display: flex;
+                flex-direction: column-reverse;
+            
+            }
+            
+            
+            footer{
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            
+            footer p{
+                text-align: center;
+                margin-right: 20px;
+            }
+            
+            svg {
+              padding-left: 40px;
+              margin-right: -193px;
+              margin-left: 192;
+            }
+        }
+            
