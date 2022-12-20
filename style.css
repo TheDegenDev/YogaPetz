@@ -434,13 +434,23 @@ footer p{
         
             margin-right: 60px;
         }  
+
+
+        .home-text{
+            
+            left: -54px;
+        }
         
         
         nav .onglets{
         
-            margin-left: 133;
+            margin-right: -220px;
         }
         
+
+        #left.card{
+            left: 211px;
+        }
         
         .content .card{
             display: flex;
@@ -451,19 +461,34 @@ footer p{
         .sepa{
             margin-left: 90px;
             margin-top: 44px;
+            margin-right: -163px;
         }
         
         
-        
-        footer p{
-            display: flex;
-            
+        .end{
+            margin-left: -169px;
+            margin-right: -333px;
         }
         
 
          .icon{
-            margin-left: 200px;
+            
+            margin-left:141px;
+            
+            
             
         }
         
+        .social{
+            display: inline;
+            
+        }
+     
+
+        svg{
+            margin-bottom: -44px;
+        }
+
+        
+
         }
