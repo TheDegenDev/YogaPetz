@@ -188,7 +188,7 @@ footer p{
 
 
 
-@media screen and (max-width:680px){
+@media (max-width:680px){
     nav .onglets {
         margin-left: 0px;
         margin-bottom: 20px;
@@ -210,7 +210,7 @@ footer p{
 }
 
 
-@media screen and (max-width:360px) {
+@media (max-width:360px) {
 
 
 #left{
@@ -247,26 +247,15 @@ nav .onglets{
 
 
 
-
-.social svg{
-    
-    padding-left: 175px;
-}
-
 footer p{
     
     margin-left: 110px;
 }
 
 
-
-header{
-    padding-right: 9px;
 }
 
-}
-
-@media screen and (max-width:380px) {
+@media  (max-width:380px) {
 
 
     #left{
@@ -303,19 +292,14 @@ header{
     
     
     footer{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    
-    footer p{
         
-        margin-left: 110px;
-    
+        
     }
-
+    
     
     .icon svg {
-        margin-left: 45px;
+        margin-left: 16px;
+        padding-right: 153px;
     }
     
     .sepa{
@@ -328,17 +312,12 @@ header{
     }
     
 
-    @media screen and (max-width:560px) {
+    @media  (max-width:560px) {
 
 
-        #left{
+        #left.card{
             position: relative;
-            right: 15px;
-        }
-        
-        #right{
-            position: relative;
-            left: 15px;
+            left: 50px;
         }
         
         nav h1{
@@ -394,7 +373,7 @@ header{
         
         
 
-        @media screen and (max-width:774px) {
+        @media (max-width:774px) {
 
 
             #left{
@@ -450,3 +429,31 @@ header{
             }
         }
             
+
+        @media (max-width:1080px){
+        
+        
+        .content .card {
+            display: flex;
+            flex-direction:column-reverse
+
+        }
+
+        #right.card{
+            position: relative;
+            left: 20px;
+        }
+         
+        nav .onglets{
+            display: flex;
+            margin-left: 285px;
+
+        }
+        
+        header{
+            padding-left: 80px;
+        }
+
+
+        } 
+
