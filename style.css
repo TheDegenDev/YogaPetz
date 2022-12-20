@@ -25,7 +25,7 @@ nav h1{
     font-family: 'Poppins', serif;
     font-size: 40px;
     padding-right: 80px;
-    margin-top: 20px;
+    margin-top: 10px;
     
 }
 nav .onglets{
@@ -38,8 +38,6 @@ nav .onglets a{
     text-decoration: none;
     color: rgb(209, 141, 64);
     margin-right: 20px;
-    border-bottom: 2px solid rgb(209, 141, 64);
-    padding-bottom: 5px;
     font-family: "poppins";
 }
 
@@ -66,15 +64,16 @@ header h4{
     border-bottom: 1px solid #fff;
 }
 .home-text{
-    padding: 10px 20px;
+    padding: 4px 17px;
     background-color:  rgb(64, 67, 71);
     border:none;
     margin-bottom: 127px;
     outline:none;
     font-size: 20px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'poppins', serif;
     cursor: pointer;
     border-radius: 2em;
+    
 }
 
 header .home-text{
@@ -88,6 +87,7 @@ header .home-text{
     font-size: 1.4em;
     font-family: "poppins";
     font-weight: bold;
+    text-decoration: none;
 }
 
 .main{
@@ -111,6 +111,19 @@ header .home-text{
    color:#fff;
    border-radius: 5px;
    
+}
+
+.content h1{
+    color:  rgb(209, 141, 64);
+    font-size: 2em;
+    font-weight: bold;
+    font-family: "poppins";
+}
+
+.content p{
+    color: rgb(161, 156, 156);
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 #left{
