@@ -174,8 +174,20 @@ footer{
     color: white;
 }
 
-svg{
-    margin-left: 10px;
+.social{
+    display: flex;
+    list-style-type: none;
+    padding-left: 40px;
+    font-size: 1.5em;
+}
+
+.fa-discord{
+    color: white;
+    margin-right: 15px;
+}
+
+.fa-twitter{
+    color: white;
 }
 
 footer p{
@@ -270,11 +282,6 @@ footer p{
         margin-right: 20px;
     }
     
-    svg {
-      padding-left: 40px;
-      margin-right: -193px;
-      margin-left: 192;
-    }
 }
     
 
@@ -350,10 +357,7 @@ footer p{
         margin-left: 88px;
     }
     
-    svg {
-       
-       margin-right: 50px;
-    }
+    
     
     .sepa{
 
@@ -397,21 +401,9 @@ footer p{
     .content .card{
         display: flex;
         flex-direction: column-reverse;
-    
+
     }
-    
-    
-    footer{
         
-        
-    }
-    
-    
-    .icon svg {
-        margin-left: 16px;
-        padding-right: 153px;
-    }
-    
     .sepa{
         margin-left: 80px;
         margin-top: 44px;
@@ -470,25 +462,11 @@ footer p{
             margin-right: -333px;
         }
         
-
-         .icon{
-            
-            margin-left:141px;
-            
-            
-            
-        }
-        
+         
         .social{
-            display: inline;
-            
-        }
-     
+            margin-left: 157px;
 
-        svg{
-            margin-bottom: -44px;
         }
-
         
-
-        }
+    }
+    
