@@ -188,6 +188,100 @@ footer p{
 
 
 
+@media (max-width:1080px){
+
+
+    .content .card {
+        display: flex;
+        flex-direction:column-reverse
+    
+    }
+    
+    #right.card{
+        position: relative;
+        left: 20px;
+    }
+     
+    nav .onglets{
+        display: flex;
+        margin-left: 285px;
+    
+    }
+    
+    header{
+        padding-left: 80px;
+    }
+    
+    
+    } 
+    
+    
+    
+
+
+
+@media (max-width:774px) {
+
+
+    #left{
+        position: relative;
+        right: 20px;
+    }
+    
+    #right{
+        position: relative;
+        left: 20px;
+    }
+    
+    nav h1{
+    
+        margin-right: 377px;
+    }  
+    
+    
+    nav .onglets{
+    
+        margin-left: 133;
+    }
+    
+    header .home-text{
+        margin-top: -55px;
+        margin-left: -54px;
+    }
+    
+    header{
+        background-size: 100%;
+    }
+    
+    .content .card{
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+    
+    
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    footer p{
+        text-align: center;
+        margin-right: 20px;
+    }
+    
+    svg {
+      padding-left: 40px;
+      margin-right: -193px;
+      margin-left: 192;
+    }
+}
+    
+
+    
+    
+
+
 @media (max-width:680px){
     nav .onglets {
         margin-left: 0px;
@@ -210,50 +304,66 @@ footer p{
 }
 
 
-@media (max-width:360px) {
+@media  (max-width:560px) {
 
 
-#left{
-    position: relative;
-    left: 85px;
-}
+    #left.card{
+        position: relative;
+        left: 100px;
+    }
+    
+    nav h1{
+    
+        margin-right: 60px;
+    }  
+    
+    
+    nav .onglets{
+        
+       position: relative;
+       left: 118px;
+        
+    }
+    
+    header .home-text{
+        margin-right: -2px;
+    }
+    
+    header{
+           width: 122%;
+    }
+    
+    .content .card{
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+    
+    
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    footer p{
+        
+        margin-left: 88px;
+    }
+    
+    svg {
+       
+       margin-right: 50px;
+    }
+    
+    .sepa{
 
-
-nav h1{
-
-    margin-right: 60px;
-}  
-
-
-nav .onglets{
-
-    margin-left: 133;
-}
-
-
-
-
-
-.content .card{
-    display: flex;
-    flex-direction: column-reverse;
-
-}
-
-.sepa{
-    margin-left: 90px;
+        margin-left: 80px;
     margin-top: 44px;
 }
+    }
 
 
 
-footer p{
-    
-    margin-left: 110px;
-}
-
-
-}
 
 @media  (max-width:380px) {
 
@@ -312,12 +422,12 @@ footer p{
     }
     
 
-    @media  (max-width:560px) {
+    @media (max-width:360px) {
 
 
-        #left.card{
-            position: relative;
-            left: 50px;
+
+        header{
+            padding-left: 169px;
         }
         
         nav h1{
@@ -327,19 +437,10 @@ footer p{
         
         
         nav .onglets{
-            
-           position: relative;
-           left: 118px;
-            
+        
+            margin-left: 133;
         }
         
-        header .home-text{
-            margin-right: -2px;
-        }
-        
-        header{
-               width: 122%;
-        }
         
         .content .card{
             display: flex;
@@ -347,113 +448,22 @@ footer p{
         
         }
         
-        
-        footer{
-            display: flex;
-            flex-direction: column-reverse;
+        .sepa{
+            margin-left: 90px;
+            margin-top: 44px;
         }
+        
+        
         
         footer p{
-            
-            margin-left: 88px;
-        }
-        
-        svg {
-           
-           margin-right: 50px;
-        }
-        
-        .sepa{
-
-            margin-left: 80px;
-        margin-top: 44px;
-    }
-        }
-        
-        
-        
-
-        @media (max-width:774px) {
-
-
-            #left{
-                position: relative;
-                right: 20px;
-            }
-            
-            #right{
-                position: relative;
-                left: 20px;
-            }
-            
-            nav h1{
-            
-                margin-right: 60px;
-            }  
-            
-            
-            nav .onglets{
-            
-                margin-left: 133;
-            }
-            
-            header .home-text{
-                margin-top: -55px;
-            }
-            
-            header{
-                background-size: 100%;
-            }
-            
-            .content .card{
-                display: flex;
-                flex-direction: column-reverse;
-            
-            }
-            
-            
-            footer{
-                display: flex;
-                flex-direction: column-reverse;
-            }
-            
-            footer p{
-                text-align: center;
-                margin-right: 20px;
-            }
-            
-            svg {
-              padding-left: 40px;
-              margin-right: -193px;
-              margin-left: 192;
-            }
-        }
-            
-
-        @media (max-width:1080px){
-        
-        
-        .content .card {
             display: flex;
-            flex-direction:column-reverse
-
-        }
-
-        #right.card{
-            position: relative;
-            left: 20px;
-        }
-         
-        nav .onglets{
-            display: flex;
-            margin-left: 285px;
-
+            
         }
         
-        header{
-            padding-left: 80px;
+
+         .icon{
+            margin-left: 200px;
+            
         }
-
-
-        } 
-
+        
+        }
