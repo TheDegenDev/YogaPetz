@@ -199,7 +199,15 @@ footer p{
 @media screen and (max-width:360px) {
 
 
+#left{
+    position: relative;
+    right: 15px;
+}
 
+#right{
+    position: relative;
+    left: 15px;
+}
 
 nav h1{
 
@@ -241,6 +249,5 @@ svg {
 }
 
 
-
-
+}
 
