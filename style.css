@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 html{
     scroll-behavior: smooth;
 }
@@ -7,37 +9,38 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(65, 64, 126);
+    background-color: rgb(39, 39, 56);
 }
 nav{
     display:flex;
     flex-wrap:wrap;
     justify-content: center;
     align-items: center;
-    border-bottom: 5px solid #6f6f6f;
-}
 
-nav .social{
-    color: red;
+    
 }
 
 nav h1{
-    color: #080808;
-    font-family: 'Playfair Display', serif;
-    font-size: 30px;
-    padding-left: 10px;
+    color:  rgb(209, 141, 64);
+    font-family: 'Poppins', serif;
+    font-size: 40px;
+    padding-right: 80px;
+    margin-top: 20px;
+    
 }
 nav .onglets{
-    margin-top: 3px;
-    margin-left: 780px;
+    margin-top: -90px;
+    margin-left: 790px;
     font-weight: bold;
+    padding-top: 60px;
 }
 nav .onglets a{
     text-decoration: none;
-    color: #000;
-    margin-right: 10px;
-    border-bottom: 2px solid #000;
+    color: rgb(209, 141, 64);
+    margin-right: 20px;
+    border-bottom: 2px solid rgb(209, 141, 64);
     padding-bottom: 5px;
+    font-family: "poppins";
 }
 
 header{
@@ -47,9 +50,9 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     color: rgb(255, 255, 255);
-   
     width: 100%;
-    background-color: aqua;
+    background-image: url(img/2.png);
+    margin-top: 10px;
     
 }
 header h1{
@@ -62,19 +65,33 @@ header h4{
     text-align: center;
     border-bottom: 1px solid #fff;
 }
-header button{
+.home-text{
     padding: 10px 20px;
-    background-color: #fff;
-    color:#000;
+    background-color:  rgb(64, 67, 71);
     border:none;
-    margin-bottom: 30px;
+    margin-bottom: 127px;
     outline:none;
     font-size: 20px;
     font-family: 'Playfair Display', serif;
     cursor: pointer;
+    border-radius: 2em;
+}
+
+header .home-text{
+    position:relative;
+    top: 250px;
+    
+}
+
+.home-text .btn{
+    color:  rgb(209, 141, 64);
+    font-size: 1.4em;
+    font-family: "poppins";
+    font-weight: bold;
 }
 
 .main{
+    padding-top: 200px;
     margin-top: 40px;
     display: flex;
     flex-direction: column;
@@ -124,11 +141,21 @@ footer{
     justify-content: space-between;
     margin-left: 40px;
     margin-right: 60px;
+    border-top: 2em solid;
+    border-width: 3px;
+    color: wheat;
+    padding-top: 12px;
+}
+
+svg{
+    margin-left: 10px;
 }
 
 footer p{
     color: rgb(211, 200, 200);
     font-weight: bold;    
+    padding-top: 10px;
+    margin-left: 45px;
 
 }
 
