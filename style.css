@@ -194,3 +194,53 @@ footer p{
         padding: 30px;
     }
 }
+
+
+@media screen and (max-width:360px) {
+
+
+
+
+nav h1{
+
+    margin-right: 60px;
+}  
+
+
+nav .onglets{
+
+    margin-left: 133;
+}
+
+header .home-text{
+    margin-top: -105px;
+}
+
+header{
+    background-size: 130%;
+}
+
+.content .card{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+footer p{
+    text-align: center;
+}
+
+svg {
+    margin-left: 26px;
+}
+
+
+
+
+
