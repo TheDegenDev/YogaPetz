@@ -123,6 +123,10 @@ header .home-text{
    
 }
 
+.content p{
+    font-family: "poppins";
+}
+
 .content h1{
     color:  rgb(209, 141, 64);
     font-size: 2em;
@@ -448,7 +452,8 @@ footer p{
 
 
         header{
-            padding-left: 290px;
+            padding-left: 327px;
+            padding-top: 46px
         }
         
         nav h1{
@@ -456,16 +461,23 @@ footer p{
             margin-right: 60px;
         }  
 
-
+         .home-text .btn{
+            font-size: 2em;
+         }
+        
         .home-text{
             
             left: -118px;
         }
         
-        
+        nav .onglets a{
+            font-size: 1.6em;
+        }
+
         nav .onglets{
         
             margin-right: -220px;
+            padding-top: 1px;
         }
         
 
@@ -486,12 +498,12 @@ footer p{
         
         .end{
             margin-left: -50px;
-            margin-right: -333px;
+            margin-right: -415px;
         }
         
          
         .social{
-            margin-left: 211px;
+            margin-left: 229px;
             margin-top: 7px;
             margin-bottom: -10px;
 
