@@ -391,33 +391,41 @@ footer p{
     #left.card{
         
         
-        left:61px;
+        left:175px;
     }
 
     #right.card{
-        left: 44px;
+        left: 70px;
     }
     
     nav h1{
     
         margin-right: 60px;
-    }  
+    }
+    
+    nav .onglets a{
+        font-size: 1.5em;
+        margin-left: 10px;
+    }
+
+
+    nav .onglets{
+        padding-top: 2px;
+        
+        
+    }
     
     .home-text{
-        left: 19px;
+        left: -50px;
     }
     
-    nav .onglets{
-    
-        margin-left: 133;
-    }
     
     header .home-text{
-        margin-top: -105px;
+        margin-top: -79px;
     }
     
     header{
-        padding-left: 25px;
+        padding-left: 166px;
     }
     
     .content .card{
@@ -434,13 +442,14 @@ footer p{
 
 
     .end{
-        margin-left: -100px;
+        margin-left: -56px;
     }
 
     .social{
-        margin-left: 218px;
+        margin-left: 233px;
         margin-bottom: 20px;
-        margin-top: -49px;
+        margin-top: -65px;
+        font-size: 2.5em;
 
     }
     
