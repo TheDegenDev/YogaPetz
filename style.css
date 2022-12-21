@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
+</style>
 
 html{
     scroll-behavior: smooth;
@@ -9,7 +11,10 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(39, 39, 56);
+    background-color: rgb(247, 2, 2);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 nav{
     display:flex;
@@ -21,11 +26,11 @@ nav{
 }
 
 nav h1{
-    color:  rgb(209, 141, 64);
-    font-family: 'Poppins', serif;
+    color:  rgb(236, 233, 228);
+    font-family: 'Mountains of Christmas', serif;
     font-size: 40px;
-    padding-right: 80px;
-    margin-top: 10px;
+    padding-right: 50px;
+    margin-top: 15px;
     
 }
 nav .onglets{
@@ -33,12 +38,91 @@ nav .onglets{
     margin-left: 790px;
     font-weight: bold;
     padding-top: 60px;
+    font-size: 1.3em;
 }
 nav .onglets a{
     text-decoration: none;
-    color: rgb(209, 141, 64);
+    color: rgb(235, 230, 225);
     margin-right: 20px;
-    font-family: "poppins";
+    font-family: "Mountains of Christmas";
+    font-size: 1.5em;
+}
+
+.noel{
+    margin-left: 68px;
+}
+
+.tete img{
+    position: relative;
+    left: 618px;
+    bottom: 40px;
+    width: 110px;
+}
+
+.fa-gifts{
+    position: relative;
+    color: white;
+    font-size: 70px;
+    top: 100px;
+    left: 120px;
+}
+.fa-holly-berry{
+    float: right;
+    position: relative;
+    right: 120px;
+    font-size: 70px;
+    color:white;
+    top: 105px;
+}
+
+.fa-gift{
+    position: relative;
+    font-size: 40px;
+    color: #fff;
+    bottom: 75px;
+    right: 50px;
+    margin-left: 30px;
+    
+
+}
+
+.fa-candy-cane{
+    position: relative;
+    font-size: 40px;
+    color: #fff;
+    bottom: 75px;
+    right: 50px;
+    
+}
+
+.fa-sleigh{
+    position: relative;
+    font-size: 8em;
+    color: #fff;
+    right: 150px;
+    top: 95px;
+}
+
+.icnoel img{
+    position: relative;
+    width: 80px;
+    left: 345px;
+    top: 25px;
+}
+
+.present img{
+    position: relative;
+    left: 840px;
+    top: -55px;
+}
+
+.fa-snowflake{
+    
+    position: relative;
+    left: 1110px;
+    color: #fff;
+    font-size: 8em;
+    top: 70px;
 }
 
 header{
@@ -49,8 +133,10 @@ header{
     background-repeat: no-repeat;
     color: rgb(255, 255, 255);
     width: 100%;
-    background-image: url(img/3.png);
+    background-image: url(img/v.png);
     margin-top: 10px;
+    height: 35%;
+
     
 }
 
@@ -67,12 +153,11 @@ header h4{
 }
 .home-text{
     padding: 4px 17px;
-    background-color:  rgb(64, 67, 71);
+    background-color:  rgb(241, 242, 243);
     border:none;
     margin-bottom: 127px;
     outline:none;
     font-size: 20px;
-    font-family: 'poppins', serif;
     cursor: pointer;
     border-radius: 2em;
     transition: 0.5s;
@@ -92,9 +177,9 @@ header .home-text{
 }
 
 .home-text .btn{
-    color:  rgb(209, 141, 64);
-    font-size: 1.4em;
-    font-family: "poppins";
+    color:  rgb(250, 15, 7);
+    font-size: 1.8em;
+    font-family: "Mountains of Christmas";
     font-weight: bold;
     text-decoration: none;
 }
@@ -117,8 +202,8 @@ header .home-text{
 .main .content .card .left{
    flex: 0 0 30%;
    padding: 20px;
-   background-color:black;
-   color:#fff;
+   background-color:rgb(238, 229, 229);
+   color:rgb(255, 254, 254);
    border-radius: 5px;
    
 }
@@ -128,22 +213,23 @@ header .home-text{
 }
 
 .content h1{
-    color:  rgb(209, 141, 64);
+    color:  rgb(184, 101, 19);
     font-size: 2em;
     font-weight: bold;
-    font-family: "poppins";
+    font-family: 'Mountains of Christmas';
 }
 
 .content p{
-    color: rgb(161, 156, 156);
+    color: rgb(46, 37, 37);
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.5em;
+    font-family: 'Mountains of Christmas';
 }
 
 #left{
     display: flex;
     justify-content:left;
-    margin-left: 85px;
+    margin-left: -40px;
 }
 
 #right{
@@ -184,6 +270,7 @@ footer{
     list-style-type: none;
     padding-left: 40px;
     font-size: 1.5em;
+    padding-top: 15px;
 }
 
 .fa-discord{
@@ -200,6 +287,8 @@ footer p{
     font-weight: bold;    
     padding-top: 10px;
     margin-left: 45px;
+    font-family: 'Mountains of Christmas';
+    font-size: 1.5em;
 
 }
 
@@ -492,9 +581,20 @@ footer p{
             padding-top: 46px
         }
         
+        .fa-candy-cane{
+
+            font-size: 0.8em;
+        }
+        .noel{
+            position: relative;
+            top: 20px;
+            font-size:50
+        }
+        
         nav h1{
         
             margin-right: 60px;
+            margin-bottom: 13px;
         }  
 
          .home-text .btn{
