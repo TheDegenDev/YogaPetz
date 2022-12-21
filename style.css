@@ -333,12 +333,20 @@ footer p{
         margin-right: 60px;
     }  
     
+    nav .onglets a{
+        font-size: 1.8em;
+    }
     
     nav .onglets{
         
        position: relative;
        left: 266px;
+       margin-top: -147px;
         
+    }
+
+    .home-text .btn{
+        font-size: 2em;
     }
     
     .home-text{
@@ -346,7 +354,7 @@ footer p{
     }
     
     header{
-           width: 122%;
+           width: 137%;
     }
     
     .content .card{
@@ -404,16 +412,17 @@ footer p{
     }
     
     nav .onglets a{
-        font-size: 1.5em;
-        margin-left: 10px;
+        font-size: 1.7em;
+        margin-left: 15px;
     }
-
-
+  
     nav .onglets{
-        padding-top: 2px;
-        
-        
+        margin-right: -70px;
     }
+
+    
+        
+   
     
     .home-text{
         left: -50px;
@@ -437,7 +446,7 @@ footer p{
     .sepa{
         margin-left: 55px;
         margin-top: 44px;
-        margin-right: -51px;
+        margin-right: -247px;
     }
 
 
@@ -480,13 +489,13 @@ footer p{
         }
         
         nav .onglets a{
-            font-size: 1.6em;
+            font-size: 1.9em;
         }
 
         nav .onglets{
         
-            margin-right: -220px;
-            padding-top: 1px;
+            margin-right: -318px;
+            padding-top: 60px;
         }
         
 
