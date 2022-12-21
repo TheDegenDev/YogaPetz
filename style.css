@@ -237,7 +237,7 @@ footer p{
 
 
 
-@media (max-width:774px) {
+@media (max-width:774px){
 
 
     #left{
@@ -255,11 +255,21 @@ footer p{
         margin-right: 377px;
     }  
     
+    nav .onglets a {
+        font-size: 2em;
+    }
     
     nav .onglets{
-    
-        margin-left: 133;
+        margin-right: -225px;
+        margin-top: -172px;
     }
+    
+     .home-text .btn{
+        font-size: 2em;
+     }
+
+    
+
     
     header .home-text{
         margin-top: -55px;
@@ -287,6 +297,13 @@ footer p{
         margin-right: 20px;
     }
     
+   .social{
+    margin-left: 280px;
+    font-size: 2.5em;
+   }
+
+
+
 }
     
 
@@ -316,16 +333,16 @@ footer p{
 }
 
 
-@media  (max-width:560px) {
+@media  (max-width:560px){
 
 
     #left.card{
         position: relative;
-        left: 100px;
+        left: 260px;
     }
     
     #right.card{
-        left: 70px;
+        left: 83px;
     }
 
     nav h1{
@@ -354,7 +371,7 @@ footer p{
     }
     
     header{
-           width: 137%;
+           width: 163%;
     }
     
     .content .card{
@@ -394,17 +411,17 @@ footer p{
 
 
 
-@media  (max-width:380px) {
+@media  (max-width:380px){
 
 
     #left.card{
         
         
-        left:175px;
+        left:320px;
     }
 
     #right.card{
-        left: 70px;
+        left: 86px;
     }
     
     nav h1{
@@ -418,7 +435,7 @@ footer p{
     }
   
     nav .onglets{
-        margin-right: -70px;
+        margin-right: -220px;
     }
 
     
@@ -466,12 +483,12 @@ footer p{
     }
     
 
-    @media (max-width:360px) {
+    @media (max-width:360px){
 
 
 
         header{
-            padding-left: 327px;
+            padding-left: 215px;
             padding-top: 46px
         }
         
@@ -486,7 +503,7 @@ footer p{
         
         .home-text{
             
-            left: -118px;
+            left: -87px;
         }
         
         nav .onglets a{
