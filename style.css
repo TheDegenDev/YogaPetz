@@ -219,10 +219,20 @@ footer p{
         left: 20px;
     }
      
+    nav h1{
+        margin-right: 476px;
+    }
+
+    nav .onglets a{
+        font-size: 30px
+    }
+
     nav .onglets{
         display: flex;
-        margin-left: 285px;
-    
+        margin-left: 464px;
+        margin-top: -174px;
+        
+        
     }
     
     header{
@@ -302,7 +312,10 @@ footer p{
     font-size: 2.5em;
    }
 
-
+   .sepa{
+    margin-left: 36px;
+    margin-right: -106px;
+   }
 
 }
     
@@ -339,6 +352,7 @@ footer p{
     #left.card{
         position: relative;
         left: 260px;
+        width: 350px;
     }
     
     #right.card{
@@ -389,7 +403,7 @@ footer p{
     .sepa{
 
         margin-left: 80px;
-    margin-right: -94px;
+    margin-right: -263px;
 }
 
 
@@ -418,6 +432,7 @@ footer p{
         
         
         left:320px;
+        width: 360px;
     }
 
     #right.card{
@@ -464,7 +479,7 @@ footer p{
     .sepa{
         margin-left: 55px;
         margin-top: 44px;
-        margin-right: -247px;
+        margin-right: -338px;
     }
 
 
@@ -529,7 +544,7 @@ footer p{
         .sepa{
             margin-left: 90px;
             margin-top: 44px;
-            margin-right: -286px;
+            margin-right: -360px;
         }
         
         
