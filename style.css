@@ -519,6 +519,7 @@ footer p{
 
         #left.card{
             left: 290px;
+            width: 360px;
         }
         
         #right.card{
