@@ -577,10 +577,15 @@ footer p{
 
 
         header{
-            padding-left: 215px;
-            padding-top: 46px
+            padding-left: 853px;
+            padding-top: 149px
+         
         }
         
+        .fa-snowflake{
+            margin-right: 400px;
+        }
+
         .fa-candy-cane{
 
             font-size: 0.8em;
@@ -588,13 +593,15 @@ footer p{
         .noel{
             position: relative;
             top: 20px;
-            font-size:50
+            font-size:50;
+            left: 100px;
         }
         
         nav h1{
         
-            margin-right: 60px;
+            margin-right: -50px;
             margin-bottom: 13px;
+            font-size: 6em;
         }  
 
          .home-text .btn{
@@ -611,9 +618,11 @@ footer p{
         }
 
         nav .onglets{
+            position: relative;
+            left: 800px;
+            font-size: 2em;
         
-            margin-right: -318px;
-            padding-top: 60px;
+           
         }
         
 
@@ -646,4 +655,10 @@ footer p{
 
         }
         
+        .fa-gift{
+            position: relative;
+            left: 40px;
+            width: 40px;
+        }
+
     }
