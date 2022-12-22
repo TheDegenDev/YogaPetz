@@ -28,6 +28,8 @@ nav h1{
     margin-top: 10px;
     
 }
+
+
 nav .onglets{
     margin-top: -90px;
     margin-left: 790px;
@@ -144,12 +146,27 @@ header .home-text{
     display: flex;
     justify-content:left;
     margin-left: 85px;
+    
+
 }
+
+.fa-twitter:hover{
+    transform: scale(1.4);
+    
+}
+
+
+.fa-discord:hover{
+    transform:scale(1.4);
+    
+}
+
 
 #right{
     display: flex;
     justify-content: right;
     margin-right: 85px;
+    
 }
 
 
@@ -184,15 +201,18 @@ footer{
     list-style-type: none;
     padding-left: 40px;
     font-size: 1.5em;
+    
 }
 
 .fa-discord{
     color: white;
     margin-right: 15px;
+    transition: 0.5s;
 }
 
 .fa-twitter{
     color: white;
+    transition: 0.5s;
 }
 
 footer p{
