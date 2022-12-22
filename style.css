@@ -326,7 +326,7 @@ footer p{
 
 
 
-@media (max-width:774px){
+@media (max-width:774px) {
 
 
     #left{
@@ -344,21 +344,11 @@ footer p{
         margin-right: 377px;
     }  
     
-    nav .onglets a {
-        font-size: 2em;
-    }
     
     nav .onglets{
-        margin-right: -225px;
-        margin-top: -172px;
+    
+        margin-left: 133;
     }
-    
-     .home-text .btn{
-        font-size: 2em;
-     }
-
-    
-
     
     header .home-text{
         margin-top: -55px;
@@ -386,13 +376,6 @@ footer p{
         margin-right: 20px;
     }
     
-   .social{
-    margin-left: 280px;
-    font-size: 2.5em;
-   }
-
-
-
 }
     
 
@@ -422,16 +405,16 @@ footer p{
 }
 
 
-@media  (max-width:560px){
+@media  (max-width:560px) {
 
 
     #left.card{
         position: relative;
-        left: 260px;
+        left: 100px;
     }
     
     #right.card{
-        left: 83px;
+        left: 70px;
     }
 
     nav h1{
@@ -460,7 +443,7 @@ footer p{
     }
     
     header{
-           width: 163%;
+           width: 137%;
     }
     
     .content .card{
@@ -500,17 +483,17 @@ footer p{
 
 
 
-@media  (max-width:380px){
+@media  (max-width:380px) {
 
 
     #left.card{
         
         
-        left:320px;
+        left:175px;
     }
 
     #right.card{
-        left: 86px;
+        left: 70px;
     }
     
     nav h1{
@@ -524,7 +507,7 @@ footer p{
     }
   
     nav .onglets{
-        margin-right: -220px;
+        margin-right: -70px;
     }
 
     
@@ -572,11 +555,12 @@ footer p{
     }
     
 
-    @media (max-width:360px){
+    @media (max-width:360px) {
 
 
 
         header{
+<<<<<<< HEAD
             padding-left: 853px;
             padding-top: 149px
          
@@ -595,6 +579,10 @@ footer p{
             top: 20px;
             font-size:50;
             left: 100px;
+=======
+            padding-left: 327px;
+            padding-top: 46px
+>>>>>>> parent of bcee606 (4v)
         }
         
         nav h1{
@@ -610,7 +598,7 @@ footer p{
         
         .home-text{
             
-            left: -87px;
+            left: -118px;
         }
         
         nav .onglets a{
