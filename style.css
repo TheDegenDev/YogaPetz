@@ -558,11 +558,11 @@ footer p{
     @media (max-width:360px) {
 
 
-
+ 
         header{
 <<<<<<< HEAD
             padding-left: 853px;
-            padding-top: 149px
+            padding-top: 149px;
          
         }
         
@@ -581,7 +581,7 @@ footer p{
             left: 100px;
 =======
             padding-left: 327px;
-            padding-top: 46px
+            padding-top: 46px;
 >>>>>>> parent of bcee606 (4v)
         }
         
