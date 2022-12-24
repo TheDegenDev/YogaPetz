@@ -118,9 +118,6 @@ section {
     font-size: 1.3em;
 }
 
-.text_container{
-    
-}
 
 .text_container .btn{
     display: inline-block;
@@ -208,7 +205,7 @@ section {
     position: relative;
     font-size: 1.8vw;
     bottom: 0.3vw;
-    margin-left: 1.9vw;
+    margin-left: 1.8vw;
 }
 
 .icons .fa-discord:hover{
@@ -653,19 +650,41 @@ footer p{
             
         }
         
+        .icons .fa-discord span{
+            display: none;
+        }
         
-         
+        .icons .fa span{
+            display: none
+        }
          
 
         .icons .fa{
-            padding: 9px 112px 1px 13px;
+            position: relative;
+            left: 425px;
+            bottom: 160px;;
+            padding: 9px 51px 1px 13px;
             font-size: 50px;
+            color: white;
+            background-color:  rgb(62, 131, 172);
             
         }
+    
+         .icons{
+            position:absolute;
+            
+            background-color: none;
+            
+         }
 
         .icons .fa-discord{
-            padding: 9px 112px 1px 8px;
+            position: relative;
+            left: 425px;
+            bottom: 150px;;
+            padding: 9px 51px 1px 8px;
             font-size: 45px;
+            background-color: rgb(62, 131, 172);
+            color: #fff;
             
         }
 
