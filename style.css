@@ -701,6 +701,7 @@ footer p{
          
         .icons{
             display: block;
+            position: fixed;
         }
 
         .icons .fa{
@@ -708,8 +709,9 @@ footer p{
             position: relative;
             
             right: 80px;
-            top: 7px;
-            margin-bottom: 40px;
+            top: 100px;
+            margin-top: 35px;
+            margin-bottom: 15px;
             font-size: 70px;
             color: white;
             background-color:  rgb(62, 131, 172);
@@ -719,8 +721,9 @@ footer p{
          
 
         .icons .fa-discord{
-            position: relative;
-            right: 60px;
+            position: fixed;
+            margin-bottom: 100px;
+            right: 100px;
             top: 5px;
             font-size: 70px;
             background-color: rgb(62, 131, 172);
