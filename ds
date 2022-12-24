@@ -19,6 +19,7 @@
 
 
 
+  <p>We are the thinker behind the thought, the observer behind the observation, the flow of attention, the flow of awareness, the unbounded ocean of consciousness. We spontaneously realize that we have choices, and that we can exercise these choices, not through some sheer will power but spontaneously. Through meditation, we gradually bring harmony, laughter, and love back into our soul and, in the process, rediscover our unconditioned self, which can never really be lost.</p>
 
 
 
@@ -29,8 +30,7 @@
 
 
 
-
-
+  <h2><span class="multiText">You Think<br>You Become</span></h2>
 
 
   body{
@@ -130,3 +130,746 @@ header .home-text{
     font-weight: bold;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(62, 131, 172);
+    
+}
+
+section {
+    width: 100%;
+    position: relative;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2vw 6vw;
+    background: rgb(62, 131, 172);
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 3vw;
+    color: rgb(248, 248, 247);
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-overflow: uppercase;
+}
+
+.menuitems{
+    display: flex;
+    margin: auto -50px;
+}
+
+.menuitems li{
+    list-style: none;
+    margin: 0 1.5vw;
+}
+
+.menuitems li a{
+    display: block;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.menuitems li:hover a{
+    color:black;
+}
+
+.contenu{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.text_container{
+    width: 50%;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+}
+
+.text_container h2{
+    font-size: 4.7vw;
+    font-weight: 900;
+    line-height: 7vw;
+    text-transform: capitalize;
+}
+
+.text_container h2::first-line{
+    color:white;
+    letter-spacing: 5px;
+    text-shadow: 0 5px 10px black;
+}
+
+
+
+.text_container h5{
+    color: #fff;
+    font-size: 2vw;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-right: 10vw;
+    text-transform: capitalize;
+}
+
+.text_container h1{
+    font-size: 1.6em;
+}
+
+.msg{
+    font-size: 2em;
+    background-color: antiquewhite;
+    display: inline
+}
+
+.text_container a{
+    font-size: 1.3em;
+}
+
+.text_container .btn{
+    display: inline-block;
+    color: grey;
+    background: #fff;
+    margin-top: 2vw;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding: 6px 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 70px;
+}
+
+.text_container .btn:hover{
+    letter-spacing: 3px;
+    padding: 6px 18px;
+}
+
+.image_container{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.imgbox{
+    position: relative;
+    min-height: 70vh;
+    margin-right: 10vw;
+    top: 40px;
+    left: 30px;
+}
+
+.imgbox img{
+    position: relative;
+    bottom: 50px;
+    right:60px;
+    height: 100%;
+    width: 120%;
+    object-fit: cover;
+}
+
+.icons{
+    position: fixed;
+    top: 50%;
+    right: -15vw;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.icons .fa-discord span{
+    position: relative;
+    font-size: 1.8vw;
+    bottom: 0.3vw;
+    margin-left: 1.8vw;
+}
+
+
+.fa-discord{
+    color: #f7f5f5;
+    width: 15vw;
+    padding: 1vw;
+    font-size: 2.1vw;
+    cursor: pointer;
+    background: rgb(62, 131, 172);
+    transition: 0.5s ease;
+    
+
+}
+
+.icons .fa {
+    width: 20vw;
+    padding: 1vw;
+    font-size: 2.5vw;
+    cursor: pointer;
+    background: rgb(62, 131, 172);
+    transition: 0.5s ease;
+    color: #fff;
+    
+}
+
+.icons .fa span{
+    position: relative;
+    font-size: 1.8vw;
+    bottom: 0.3vw;
+    margin-left: 1.8vw;
+}
+
+.icons .fa-discord:hover{
+    color: #070707;
+    transform: translate(-8vw);
+    border-radius: 5px;
+}
+
+
+.icons .fa:hover{
+    color: #ffffff;
+    transform: translate(-8vw);
+    border-radius: 5px;
+}
+ 
+
+.multiText{
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.main{
+    padding-top: 170px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:20px;
+    
+}
+.main .content .card .left{
+   flex: 0 0 30%;
+   padding: 20px;
+   background-color:rgb(224, 224, 226);
+   color:rgb(26, 127, 194);
+   border-radius: 5px;
+   
+}
+
+.content p{
+    font-family: "poppins";
+}
+
+.content h1{
+    color:  rgb(24, 112, 163);
+    font-size: 2em;
+    font-weight: bold;
+    font-family: "poppins";
+}
+
+.content p{
+    color: rgb(61, 66, 66);
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+
+#left{
+    display: flex;
+    justify-content:left;
+    margin-left: 85px;
+    
+
+}
+
+.fa-twitter:hover{
+    transform: scale(1.4);
+    
+}
+
+
+.fa-discord:hover{
+    transform:scale(1.4);
+    
+}
+
+
+#right{
+    display: flex;
+    justify-content: right;
+    margin-right: 85px;
+    
+}
+
+
+
+.main .content .card .right img{
+    height:300px;
+    width: 400px;
+    margin-top: 5px;
+    border-radius: 5px;
+    
+}
+
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 60px;
+    
+    border-width: 3px;
+    color: wheat;
+    padding-top: 20px;
+}
+
+.sepa{
+    border: solid 2px;
+    color: white;
+}
+
+.end{
+    margin-right: 300px;
+}
+
+footer p{
+    position: relative;
+    right: 100px;
+    bottom: 5px;
+    color: rgb(211, 200, 200);
+    font-weight: bold;    
+    padding-bottom: 10px;
+    padding-top: 5px;
+    
+    
+    
+}
+
+
+
+@media (max-width:1080px){
+
+
+    .content .card {
+        display: flex;
+        flex-direction:column-reverse
+    
+    }
+    
+    #right.card{
+        position: relative;
+        left: 20px;
+    }
+     
+    nav h1{
+        margin-right: 476px;
+    }
+
+    nav .onglets a{
+        font-size: 30px
+    }
+
+    nav .onglets{
+        display: flex;
+        margin-left: 464px;
+        margin-top: -174px;
+        
+        
+    }
+    
+    header{
+        padding-left: 80px;
+    }
+    
+    
+    } 
+    
+    
+    
+
+
+
+@media (max-width:774px){
+
+
+    #left{
+        position: relative;
+        right: 20px;
+    }
+    
+    #right{
+        position: relative;
+        left: 20px;
+    }
+    
+    nav h1{
+    
+        margin-right: 377px;
+    }  
+    
+    nav .onglets a {
+        font-size: 2em;
+    }
+    
+    nav .onglets{
+        margin-right: -225px;
+        margin-top: -172px;
+    }
+    
+     .home-text .btn{
+        font-size: 2em;
+     }
+
+    
+
+    
+    header .home-text{
+        margin-top: -55px;
+        margin-left: -54px;
+    }
+    
+    header{
+        background-size: 100%;
+    }
+    
+    .content .card{
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+    
+    
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    footer p{
+        text-align: center;
+        margin-right: 20px;
+    }
+    
+   .social{
+    margin-left: 280px;
+    font-size: 2.5em;
+   }
+
+   .sepa{
+    margin-left: 36px;
+    margin-right: -106px;
+   }
+
+}
+    
+
+    
+    
+
+
+@media (max-width:680px){
+    nav .onglets {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .main .card {
+        margin: 10px;
+    }
+    .main .content .card .right img{
+        height:200px;
+        width: 100%;
+        margin-top: -0px;
+    }
+    .main .content .card{
+        display: block;
+    }
+    footer{
+        padding: 30px;
+    }
+}
+
+
+@media  (max-width:560px){
+
+
+    #left.card{
+        position: relative;
+        left: 260px;
+        width: 350px;
+    }
+    
+    #right.card{
+        left: 83px;
+    }
+
+    nav h1{
+    
+        margin-right: 60px;
+    }  
+    
+    nav .onglets a{
+        font-size: 1.8em;
+    }
+    
+    nav .onglets{
+        
+       position: relative;
+       left: 266px;
+       margin-top: -147px;
+        
+    }
+
+    .home-text .btn{
+        font-size: 2em;
+    }
+    
+    .home-text{
+        left: -10px;
+    }
+    
+    header{
+           width: 163%;
+    }
+    
+    .content .card{
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+    
+    
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sepa{
+
+        margin-left: 80px;
+    margin-right: -263px;
+}
+
+
+.end{
+     margin-right: 50px;
+    
+}
+    
+
+.social{
+    margin-left: 267px;
+    
+    margin-top: -54px;
+    font-size: 2.3em;
+
+}
+
+}
+
+
+
+
+@media  (max-width:380px){
+
+
+    #left.card{
+        
+        
+        left:320px;
+        width: 360px;
+    }
+
+    #right.card{
+        left: 86px;
+    }
+    
+    nav h1{
+    
+        margin-right: 60px;
+    }
+    
+    nav .onglets a{
+        font-size: 1.7em;
+        margin-left: 15px;
+    }
+  
+    nav .onglets{
+        margin-right: -220px;
+    }
+
+    
+        
+   
+    
+    .home-text{
+        left: -50px;
+    }
+    
+    
+    header .home-text{
+        margin-top: -79px;
+    }
+    
+    header{
+        padding-left: 166px;
+    }
+    
+    .content .card{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+        
+    .sepa{
+        margin-left: 55px;
+        margin-top: 44px;
+        margin-right: -338px;
+    }
+
+
+    .end{
+        margin-left: -56px;
+    }
+
+    .social{
+        margin-left: 233px;
+        margin-bottom: 20px;
+        margin-top: -65px;
+        font-size: 2.5em;
+
+    }
+    
+    }
+    
+
+    @media (max-width:360px){
+
+       .navbar .logo{
+        font-size: 3em;
+       }
+      
+        .menuitems{
+            position: relative;
+            right: 50px;
+        }
+
+      .navbar .menuitems a{
+            font-size: 25px; 
+            
+        }
+        
+        .imgbox img{
+            position: fixed;
+            left: 200px;
+            width: 300%;
+            bottom: 200px;
+        }
+          
+        .text_container{
+            width: 200%;
+            margin-top: 100px;
+        }
+
+        .text_container p{
+            font-size: 1.7em;
+            width: 200%;
+            margin-top: 100px;
+            
+        }
+
+
+        #right.card{
+            left: 83px;
+        }
+        
+        .sepa{
+            margin-left: 90px;
+            margin-top: 44px;
+            margin-right: -360px;
+        }
+        
+        
+        .end{
+            margin-left: -50px;
+            margin-right: -415px;
+        }
+        
+         
+        
+    }
+
+
+
+    We are the thinker behind the thought, the observer behind the observation, the flow of attention, the flow of awareness, the unbounded ocean of consciousness. We spontaneously realize that we have choices, and that we can exercise these choices, not through some sheer will power but spontaneously. Through meditation, we gradually bring harmony, laughter, and love back into our soul and, in the process, rediscover our unconditioned self, which can never really be lost.
+
