@@ -85,9 +85,10 @@ section {
 }
 
 .text_container h2{
-    font-size: 4.7vw;
+    font-size: 2.7vw;
     font-weight: 900;
-    line-height: 7vw;
+    color: rgb(232, 223, 235);
+    
     text-transform: capitalize;
 }
 
@@ -115,6 +116,10 @@ section {
 
 .text_container a{
     font-size: 1.3em;
+}
+
+.text_container{
+    
 }
 
 .text_container .btn{
@@ -147,18 +152,12 @@ section {
     position: relative;
 }
 
-.imgbox{
-    position: relative;
-    min-height: 70vh;
-    margin-right: 10vw;
-    top: 40px;
-    left: 30px;
-}
+
 
 .imgbox img{
     position: relative;
-    bottom: 50px;
-    right:60px;
+    bottom: 20px;
+    right:110px;
     height: 100%;
     width: 120%;
     object-fit: cover;
@@ -175,18 +174,18 @@ section {
 .icons .fa-discord span{
     position: relative;
     font-size: 1.8vw;
-    bottom: 0.3vw;
+    bottom: 1px;
     margin-left: 1.8vw;
 }
 
 
 .fa-discord{
-    color: #f7f5f5;
+    color: #070707;
     width: 15vw;
     padding: 1vw;
     font-size: 2.1vw;
     cursor: pointer;
-    background: rgb(62, 131, 172);
+    background: rgb(239, 242, 243);
     transition: 0.5s ease;
     
 
@@ -197,9 +196,10 @@ section {
     padding: 1vw;
     font-size: 2.5vw;
     cursor: pointer;
-    background: rgb(62, 131, 172);
+    background: rgb(245, 245, 245);
     transition: 0.5s ease;
-    color: #fff;
+    color: rgb(5, 5, 5);
+
     
 }
 
@@ -214,20 +214,18 @@ section {
     color: #070707;
     transform: translate(-8vw);
     border-radius: 5px;
+
 }
 
 
 .icons .fa:hover{
-    color: #ffffff;
+    color: #0a0a0a;
     transform: translate(-8vw);
     border-radius: 5px;
 }
  
 
-.multiText{
-    font-size: 1em;
-    font-weight: 900;
-}
+
 
 .main{
     padding-top: 170px;
@@ -654,11 +652,15 @@ footer p{
             
         }
         
+        .icons{
+            font-size: 5em;
+        }
+
         .imgbox img{
-            position: fixed;
-            left: 200px;
-            width: 300%;
-            bottom: 200px;
+            position: relative;
+            left: 116px;
+            width: 518%;
+            bottom: -87px;
         }
           
         .text_container{
@@ -666,10 +668,10 @@ footer p{
             margin-top: 100px;
         }
 
-        .text_container p{
+        .text_container h2{
             font-size: 1.7em;
-            width: 200%;
-            margin-top: 100px;
+            width: 100%;
+            
             
         }
 
