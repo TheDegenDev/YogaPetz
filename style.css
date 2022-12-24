@@ -580,9 +580,6 @@ footer p{
         
         
 
-        .menuitems{
-            display: none
-        }
 
         .icons .fa:hover{
             display: none;
@@ -672,8 +669,9 @@ footer p{
        }
       
         .menuitems{
-            position: relative;
+            position: absolute;
             right: 50px;
+            top: 1200px;
         }
 
       .navbar .menuitems a{
@@ -681,13 +679,7 @@ footer p{
             
         }
         
-        .menuitems{
-            display: block;
-        }
-
-        .menuitems li{
-            display: none
-        }
+        
 
         .icons .fa:hover{
             display: none;
