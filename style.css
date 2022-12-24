@@ -196,9 +196,10 @@ section {
     padding: 1vw;
     font-size: 2.5vw;
     cursor: pointer;
-    background: rgb(245, 245, 245);
+    background: rgb(241, 241, 241);
     transition: 0.5s ease;
     color: rgb(5, 5, 5);
+    
 
     
 }
@@ -207,7 +208,7 @@ section {
     position: relative;
     font-size: 1.8vw;
     bottom: 0.3vw;
-    margin-left: 1.8vw;
+    margin-left: 1.9vw;
 }
 
 .icons .fa-discord:hover{
@@ -652,8 +653,20 @@ footer p{
             
         }
         
-        .icons{
-            font-size: 5em;
+        
+         
+         
+
+        .icons .fa{
+            padding: 9px 112px 1px 13px;
+            font-size: 50px;
+            
+        }
+
+        .icons .fa-discord{
+            padding: 9px 112px 1px 8px;
+            font-size: 45px;
+            
         }
 
         .imgbox img{
