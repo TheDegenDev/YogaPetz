@@ -718,15 +718,11 @@ footer p{
             background-color:  rgb(62, 131, 172);
             
         }
-    
-         .icons{
-            position: fixed;
-            display: flex;
-            
-         }
+
+         
 
         .icons .fa-discord{
-            position: absolute;
+            
             right: 130px;
             bottom: 720px;;
             padding: 9px 51px 1px 8px;
