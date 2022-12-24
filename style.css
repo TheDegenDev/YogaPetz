@@ -697,14 +697,17 @@ footer p{
             display: none
         }
          
+        .icons{
+            display: block;
+        }
 
         .icons .fa{
             
+            position: relative;
             
-            right: 220px;
-            bottom: 600px;
-            margin-left: 30px;
-            padding: 9px 51px 1px 13px;
+            right: 72px;
+            top: 7px;
+            margin-bottom: 40px;
             font-size: 70px;
             color: white;
             background-color:  rgb(62, 131, 172);
@@ -714,10 +717,9 @@ footer p{
          
 
         .icons .fa-discord{
-            
-            right: 130px;
-            bottom: 600px;;
-            padding: 9px 51px 1px 8px;
+            position: relative;
+            right: 50px;
+            top: 5px;
             font-size: 70px;
             background-color: rgb(62, 131, 172);
             color: #fff;
@@ -726,7 +728,7 @@ footer p{
 
         .imgbox img{
             position: relative;
-            left: 116px;
+            left: 80px;
             width: 518%;
             bottom: -87px;
         }
@@ -743,9 +745,13 @@ footer p{
             
         }
 
+        #left.card{
+            
+        margin-right: 60px;
+           }
 
         #right.card{
-            left: 83px;
+            left: 80px;
         }
         
         .sepa{
