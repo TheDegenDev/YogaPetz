@@ -681,7 +681,9 @@ footer p{
             
         }
         
-        
+        .menuitems{
+            display: block;
+        }
 
         .menuitems li{
             display: none
