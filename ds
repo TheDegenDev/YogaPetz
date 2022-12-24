@@ -873,3 +873,51 @@ footer p{
 
     We are the thinker behind the thought, the observer behind the observation, the flow of attention, the flow of awareness, the unbounded ocean of consciousness. We spontaneously realize that we have choices, and that we can exercise these choices, not through some sheer will power but spontaneously. Through meditation, we gradually bring harmony, laughter, and love back into our soul and, in the process, rediscover our unconditioned self, which can never really be lost.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .icons .fa{
+        position: relative;
+        left: 425px;
+        bottom: 160px;;
+        padding: 9px 51px 1px 13px;
+        font-size: 50px;
+        color: white;
+        background-color:  rgb(62, 131, 172);
+        
+    }
+
+     .icons{
+        position:absolute;
+        
+     }
+
+    .icons .fa-discord{
+        position: relative;
+        left: 425px;
+        bottom: 150px;;
+        padding: 9px 51px 1px 8px;
+        font-size: 45px;
+        background-color: rgb(62, 131, 172);
+        color: #fff;
+        
+    }
+
