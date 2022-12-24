@@ -665,17 +665,19 @@ footer p{
 
        .navbar .logo{
         font-size: 3.5em;
-        margin-top: 25px;
+        margin-top: 10px;
        }
       
         .menuitems{
             position: relative;
             right: 50px;
+            top: 5px;
             
         }
 
       .navbar .menuitems a{
             font-size: 25px; 
+            font-weight: 900;
             
         }
         
@@ -705,7 +707,7 @@ footer p{
             
             position: relative;
             
-            right: 72px;
+            right: 80px;
             top: 7px;
             margin-bottom: 40px;
             font-size: 70px;
@@ -718,7 +720,7 @@ footer p{
 
         .icons .fa-discord{
             position: relative;
-            right: 50px;
+            right: 60px;
             top: 5px;
             font-size: 70px;
             background-color: rgb(62, 131, 172);
@@ -730,28 +732,33 @@ footer p{
             position: relative;
             left: 80px;
             width: 518%;
-            bottom: -87px;
+            bottom: -40px;
         }
           
         .text_container{
             width: 200%;
             margin-top: 100px;
+            
         }
 
         .text_container h2{
             font-size: 1.7em;
             width: 100%;
+            }
+        
+           .text_container a{
+                font-size: 2.1em
+            }
+
             
-            
-        }
 
         #left.card{
+            left: 240px;
             
-        margin-right: 60px;
            }
 
         #right.card{
-            left: 80px;
+            left: 150px;
         }
         
         .sepa{
@@ -762,8 +769,11 @@ footer p{
         
         
         .end{
-            margin-left: -50px;
-            margin-right: -415px;
+            
+            margin-right: -300px;
+            position: relative;
+            left: 220px;
+            font-size: 1.5em;
         }
         
          
