@@ -698,18 +698,19 @@ footer p{
         .icons .fa span{
             display: none
         }
-         
+          
         .icons{
             display: block;
-            position: fixed;
         }
+    
 
         .icons .fa{
             
-            position: relative;
+            
             
             right: 80px;
             top: 100px;
+            
             margin-top: 35px;
             margin-bottom: 15px;
             font-size: 70px;
