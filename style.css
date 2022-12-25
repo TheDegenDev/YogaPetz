@@ -119,7 +119,7 @@ section {
 }
 
 
-.text_container .btn{
+.bx .btn{
     display: inline-block;
     color: grey;
     background: #fff;
@@ -132,9 +132,10 @@ section {
     border-radius: 10px;
     position: absolute;
     bottom: 70px;
+    left: 100px;
 }
 
-.text_container .btn:hover{
+.bx .btn:hover{
     letter-spacing: 3px;
     padding: 6px 18px;
 }
@@ -565,7 +566,7 @@ footer p{
 
     .navbar .logo{
         font-size: 3.5em;
-        margin-top: 25px;
+        margin-top: 1px;
        }
       
         .menuitems{
@@ -575,12 +576,13 @@ footer p{
 
       .navbar .menuitems a{
             font-size: 25px; 
+            font-weight: 800;
             
         }
         
         
 
-
+        
         .icons .fa:hover{
             display: none;
         }
@@ -596,47 +598,71 @@ footer p{
         .icons .fa span{
             display: none
         }
-         
+          
+    
 
         .icons .fa{
-            
             position: relative;
-            right: 170px;
-            bottom: 720px;
-            margin-left: 30px;
-            padding: 9px 51px 1px 13px;
+            right: 80px;
+            margin-top: 39px;
+            margin-bottom: 15px;
             font-size: 70px;
             color: white;
             background-color:  rgb(62, 131, 172);
             
         }
-    
-         .icons{
-            position: fixed;
-            display: flex;
-            
-         }
+
+         
 
         .icons .fa-discord{
             position: relative;
-            right: 130px;
-            bottom: 720px;;
-            padding: 9px 51px 1px 8px;
+            right: 92px;
+            top: 50px;
             font-size: 70px;
             background-color: rgb(62, 131, 172);
             color: #fff;
             
         }
 
+       
 
-   #left.card{
-         left:320px;
-        width: 360px;
-    }
 
-    #right.card{
-        left: 86px;
-    }
+        
+        .imgbox img{
+            position: relative;
+            left: 80px;
+            width: 518%;
+            bottom: -40px;
+        }
+          
+        .text_container{
+            width: 200%;
+            margin-top: 100px;
+            
+        }
+
+        .text_container h2{
+            font-size: 1.7em;
+            width: 100%;
+            }
+        
+           .text_container a{
+                font-size: 2.1em
+            }
+
+            
+
+        #left.card{
+            left: 240px;
+            
+           }
+
+        #right.card{
+            left: 150px;
+        }
+        
+
+     
 
 
     
@@ -654,9 +680,13 @@ footer p{
 
 
     .end{
-        margin-left: -56px;
+            
+        margin-right: -300px;
+        position: relative;
+        left: 220px;
+        font-size: 1.5em;
     }
-
+    
     
     }
     
@@ -724,7 +754,7 @@ footer p{
         .icons .fa-discord{
             position: fixed;
             margin-bottom: 100px;
-            right: 100px;
+            right: 110px;
             top: 5px;
             font-size: 70px;
             background-color: rgb(62, 131, 172);
@@ -734,9 +764,9 @@ footer p{
 
         .imgbox img{
             position: relative;
-            left: 80px;
-            width: 518%;
-            bottom: -40px;
+            left: 100px;
+            width: 630%;
+            bottom: -10px;
         }
           
         .text_container{
@@ -745,8 +775,14 @@ footer p{
             
         }
 
+         
+         .bx .btn{
+            position: relative;
+            top: 100px;
+         }
+
         .text_container h2{
-            font-size: 1.7em;
+            font-size: 2em;
             width: 100%;
             }
         
