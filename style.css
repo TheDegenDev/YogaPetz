@@ -189,12 +189,12 @@ section {
 
 
 .fa-discord{
-    color: #070707;
+    color: #ece6e6;
     width: 15vw;
     padding: 1vw;
     font-size: 2.1vw;
     cursor: pointer;
-    background: rgb(239, 242, 243);
+    background: rgb(62, 131, 172);
     transition: 0.5s ease;
     
 
@@ -205,13 +205,16 @@ section {
     padding: 1vw;
     font-size: 2.5vw;
     cursor: pointer;
-    background: rgb(241, 241, 241);
+    background: rgb(62, 131, 172);
     transition: 0.5s ease;
-    color: rgb(5, 5, 5);
+    color: #eee8e8;
+    
     
 
     
 }
+
+
 
 .icons .fa span{
     position: relative;
@@ -221,7 +224,7 @@ section {
 }
 
 .icons .fa-discord:hover{
-    color: #070707;
+    color: #ffffff;
     transform: translate(-8vw);
     border-radius: 5px;
 
@@ -229,7 +232,7 @@ section {
 
 
 .icons .fa:hover{
-    color: #0a0a0a;
+    color: #f3f1f1;
     transform: translate(-8vw);
     border-radius: 5px;
 }
